@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Rama",
+      "email": "Ram@gmail.com",
+      "password": "rrr",
+      "phno": "9876543219",
+      "dob": "01/01/2001",
+      "pic": "https://wallpapers.com/images/high/sudeep-leaning-on-chair-qgjlxxbv0k1wayr3.webp",
+      "gender": "",
+      "active_bookings": [
+        {
+          "busname": "Airavatha",
+          "busnumber": "KA01E2342",
+          "seats": 1,
+          "from": "Bangalore",
+          "to": "Kodagu",
+          "start": "6:00am",
+          "end": "2:00pm",
+          "journey_time": "8",
+          "price": 600,
+          "date": "2023-05-13"
+        },
+        {
+          "busname": "Pragati tourists",
+          "busnumber": "KA01E442",
+          "seats": 1,
+          "from": "Bangalore",
+          "to": "Gulbarga",
+          "start": "9:45pm",
+          "end": "10:45am",
+          "journey_time": "13",
+          "price": 1000,
+          "date": "2023-05-18"
+        }
+      ],
+      "previous_bookings": []
+    },
+    {
+      "username": "Sainatha",
+      "email": "sai@gmail.com",
+      "phno": "9731841833",
+      "pic": "data:image/jpeg;base64,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",
+      "password": "sai",
+      "dob": "",
+      "gender": "",
+      "active_bookings": [
+        {
+          "busname": "Sri Sai Tourist",
+          "busnumber": "KA20S2123",
+          "seats": "2",
+          "from": "Kundapura",
+          "to": "Bangalore",
+          "start": "7:30pm",
+          "end": "5:30am",
+          "journey_time": "10",
+          "price": 2600,
+          "date": "2023-06-11"
+        }
+      ],
+      "previous_bookings": [],
+      "id": 2
+    }
+  ]
+}
